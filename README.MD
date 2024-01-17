@@ -1,7 +1,7 @@
 Note: This Python script has been compiled as a executable file and works on Windows operating systems.
 
 
-Therefore "Clone-Files-from-given-Current-Directory-Decrementally-Win.exe" would perform the following actions:
+Therefore "Decremental Files Sync Current Dir Win.exe" would perform the following actions:
 
 1. It starts in the current working directory, as the environment in which the script is running in (so the .exe file should be copied in the main directory you need files cloned from).
 
@@ -40,7 +40,7 @@ Directory Structure Preservation: The script maintains the directory structure o
 
 Usage:
 
-As a user you can copy "Clone-Files-from-given-Current-Directory-Decrementally-Win.exe" in the directory you want to copy files from, and run it from that location. A dialog box will appear for you to select the destination directory.
+As a user you can copy "Decremental Files Sync Current Dir Win.exe" in the directory you want to copy files from, and run it from that location. A dialog box will appear for you to select the destination directory.
 The script will then copy the files in descending order of their sizes, preserving the directories structure of the source directory. If the destination directories do not exist, it will create them.
 
 Please note that this script requires admin privileges to run. If it does not have admin privileges, it will try to grant required privileges to run, if they are declined by the system the script will exit.

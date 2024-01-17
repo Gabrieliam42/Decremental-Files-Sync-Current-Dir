@@ -24,24 +24,24 @@ The term “Decrementally” means that the script would process the files in a 
 The script would start with cloning the largest size files and proceed to clone the smaller, and smaller file size, ending with the smallest.
 This is useful when you want files copied on a USB drive and you want to avoid it becoming fragmented (copying files from the biggest size to the smallest will not fragment the drive).
 
-Therefore this Python script copies files from the current working directory to a user-selected destination directory. The files are copied in descending order of their sizes.
+Therefore this Python script copies files from the current working directory to a user-selected Destination directory. The files are copied in descending order of their sizes.
 
 Features:
 
 Admin Privileges: The script checks if it has admin privileges and if not, it tries to grant itself administrator rights.
 
-Folder Dialog: It uses the a specific library to open a dialog for the user to select the destination directory.
+Folder Dialog: It uses the a specific library to open a dialog for the user to select the Destination directory.
 
-File Copy: It then copies files from the source to the destination directory.
+File Copy: It then copies files from the Source to the Destination directory.
 File Size Sorting: It creates a list of tuples with file sizes and their respective paths, sorts this list in descending order, and then copies the files accordingly.
 
-Directory Creation: If the destination sub-directories do not exist, it creates the respective directories, according to the source directory hierarchy.
-Directory Structure Preservation: The script maintains the directory structure of the sub-folders in the source directory when copying files to the destination directory.
+Directory Creation: If the Destination sub-directories do not exist, it creates the respective directories, according to the Source directory hierarchy.
+Directory Structure Preservation: The script maintains the directory structure of the sub-folders in the Source directory when copying files to the destination directory.
 
 Usage:
 
-As a user you can copy "Decremental Files Sync Current Dir Win.exe" in the directory you want to copy files from, and run it from that location. A dialog box will appear for you to select the destination directory.
-The script will then copy the files in descending order of their sizes, preserving the directories structure of the source directory. If the destination directories do not exist, it will create them.
+As a user you can copy "Decremental Files Sync Current Dir Win.exe" in the directory you want to copy files from, and run it from that location. A dialog box will appear for you to select the Destination directory.
+The script will then copy the files in descending order of their sizes, preserving the directories structure of the Source directory. If the Destination directories do not exist, it will create them.
 
 Please note that this script requires admin privileges to run. If it does not have admin privileges, it will try to grant required privileges to run, if they are declined by the system the script will exit.
 

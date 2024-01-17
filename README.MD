@@ -36,7 +36,7 @@ File Copy: It then copies files from the Source to the Destination directory.
 File Size Sorting: It creates a list of tuples with file sizes and their respective paths, sorts this list in descending order, and then copies the files accordingly.
 
 Directory Creation: If the Destination sub-directories do not exist, it creates the respective directories, according to the Source directory hierarchy.
-Directory Structure Preservation: The script maintains the directory structure of the sub-folders in the Source directory when copying files to the destination directory.
+Directory Structure Preservation: The script maintains the directory structure of the sub-folders in the Source directory when copying files to the Destination directory.
 
 Usage:
 

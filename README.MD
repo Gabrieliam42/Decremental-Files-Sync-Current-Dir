@@ -54,9 +54,23 @@ The author is not responsible for any loss of data. Use at your own consideratio
 
 
 
-##### AI Involvement
 
-The script's development did not depend on AI tools like ChatGPT, their main use was for creating code comments and descriptions.
+
+
+<br><br>
+
+
+
+
+<br><br>
+
+
+
+
+
+**Script Developer:** Gabriel Mihai Sandu  
+**GitHub Profile:** [https://github.com/Gabrieliam42](https://github.com/Gabrieliam42)
+
 
 
 

@@ -1,7 +1,7 @@
 Note: This Python script has been compiled as a executable file and works on Windows operating systems.
 
 
-Therefore "Decremental Files Sync Current Dir Win.exe" would perform the following actions:
+Therefore "Decremental_Files_Sync_in_Current_Dir_Win.exe" would perform the following actions:
 
 1. In order to run this script you must copy the "Decremental Files Sync Current Dir Win.exe" in the Source directory (the directory you want files copied from).
 
